@@ -1,0 +1,11 @@
+---
+title: Post testing again
+author: Chao Xu
+date: '2018-02-22'
+slug: post-testing-again
+categories:
+  - Example
+tags: [test]
+---
+
+testing testing
