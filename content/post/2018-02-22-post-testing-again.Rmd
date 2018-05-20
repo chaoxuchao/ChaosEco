@@ -1,11 +1,11 @@
 ---
-title: Post testing again
+title: New post
 author: Chao Xu
 date: '2018-02-22'
-slug: post-testing-again
+slug: process
 categories:
   - Example
-tags: [test]
+tags: 
 ---
-
-testing testing testing
+Go to:
+Tools -> Version Control -> Comment -> Select all and then Enter, input some comments -> Press Comment button -> Push Icon)
