@@ -4,8 +4,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
-    <title>Categories - ChaosEco</title>
-    <meta property="og:title" content="Categories - ChaosEco">
+    <title>Matlab spatial panels - Reference to non-existent field &#39;parm&#39; - ChaosEco</title>
+    <meta property="og:title" content="Matlab spatial panels - Reference to non-existent field &#39;parm&#39; - ChaosEco">
     
 
     
@@ -14,8 +14,6 @@
 
     
 
-    
-    <link href="/categories/index.xml" rel="alternate" type="application/rss+xml" title="ChaosEco" />
     
     
 
@@ -26,7 +24,7 @@
   </head>
 
   
-  <body class="categories">
+  <body class="post">
     <header class="masthead">
       <h1><a href="/">ChaosEco</a></h1>
 
@@ -46,7 +44,7 @@
         
         <li><a href="/about/">About</a></li>
         
-        <li class="active"><a href="/categories/">Categories</a></li>
+        <li><a href="/categories/">Categories</a></li>
         
         <li><a href="/tags/">Tags</a></li>
         
@@ -60,59 +58,25 @@
     <article class="main">
       <header class="title">
       
-<h1>Categories</h1>
+<h1>Matlab spatial panels - Reference to non-existent field &#39;parm&#39;</h1>
 
-<h3>
-</h3>
+<h3>Chao Xu
+  /  2018-05-20</h3>
 <hr>
 
 
       </header>
 
 
-<ul class="terms">
-  
-  <li>
-    <a href="/categories/arcgis">
-      ArcGIS
-    </a>
-    (1)
-  </li>
-  
-  <li>
-    <a href="/categories/example">
-      Example
-    </a>
-    (4)
-  </li>
-  
-  <li>
-    <a href="/categories/hugo">
-      Hugo
-    </a>
-    (1)
-  </li>
-  
-  <li>
-    <a href="/categories/matlab">
-      Matlab
-    </a>
-    (1)
-  </li>
-  
-  <li>
-    <a href="/categories/r">
-      R
-    </a>
-    (1)
-  </li>
-  
-</ul>
+
+<p>这个问题是由于matlab引用的文件中缺失对参数‘parm’的定义造成的。 新版的jplv7工具箱中sar_panel_FE.m没有定义result.parm，可以找到旧版的sar_panel_FE.m文件放入Elhorst文件夹，由于在路径设置中，Elhorst文件夹在jplv7文件夹之前，所以在读取顺序上旧版的sar_panel_FE.m文件会覆盖jplv7文件夹中的新版文件。</p>
+<p>Source：<a href="http://bbs.pinggu.org/thread-3661610-1-1.html" class="uri">http://bbs.pinggu.org/thread-3661610-1-1.html</a></p>
+
 
   <footer>
   
 <nav class="post-nav">
-  <span class="nav-prev"></span>
+  <span class="nav-prev">&larr; <a href="/post/2018/02/24/cut-a-polyline-with-anothe-polyline-or-point/">Cut a polyline with anothe polyline or point</a></span>
   <span class="nav-next"></span>
 </nav>
 
