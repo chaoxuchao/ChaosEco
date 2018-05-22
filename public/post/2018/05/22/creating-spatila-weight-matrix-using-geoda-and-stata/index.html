@@ -4,8 +4,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
-    <title>Categories - ChaosEco</title>
-    <meta property="og:title" content="Categories - ChaosEco">
+    <title>Creating spatila weight matrix using Geoda and Stata - ChaosEco</title>
+    <meta property="og:title" content="Creating spatila weight matrix using Geoda and Stata - ChaosEco">
     
 
     
@@ -14,8 +14,6 @@
 
     
 
-    
-    <link href="/categories/index.xml" rel="alternate" type="application/rss+xml" title="ChaosEco" />
     
     
 
@@ -26,7 +24,7 @@
   </head>
 
   
-  <body class="categories">
+  <body class="post">
     <header class="masthead">
       <h1><a href="/">ChaosEco</a></h1>
 
@@ -46,7 +44,7 @@
         
         <li><a href="/about/">About</a></li>
         
-        <li class="active"><a href="/categories/">Categories</a></li>
+        <li><a href="/categories/">Categories</a></li>
         
         <li><a href="/tags/">Tags</a></li>
         
@@ -60,45 +58,34 @@
     <article class="main">
       <header class="title">
       
-<h1>Categories</h1>
+<h1>Creating spatila weight matrix using Geoda and Stata</h1>
 
-<h3>
-</h3>
+<h3>Chao
+  /  2018-05-22</h3>
 <hr>
 
 
       </header>
 
 
-<ul class="terms">
-  
-  <li>
-    <a href="/categories/arcgis">
-      ArcGIS
-    </a>
-    (2)
-  </li>
-  
-  <li>
-    <a href="/categories/example">
-      Example
-    </a>
-    (1)
-  </li>
-  
-  <li>
-    <a href="/categories/matlab">
-      Matlab
-    </a>
-    (2)
-  </li>
-  
+
+<p>先使用Geoda生成gal文件，然后使用下面的stata commands来生成空间加权矩阵文件</p>
+<p>ssc install spwmatrix</p>
+<ul>
+<li>remove the first and last lines of the txt file spwmatrix import using C:*USER*_file.gal, wname(weights) xport(weights, txt)</li>
 </ul>
+<p>insheet using “C:*USER*.txt“, delim(” “) clear save”weights.dta&quot;</p>
+<p>gen id = _n order id, first</p>
+<p>rename v(#) m(#) rename v(##) m(##) rename v(###) m(###)</p>
+<p>gsort -id drop id</p>
+<p>gen id = _n order id, first</p>
+<p>Source： <a href="https://drive.google.com/file/d/0By5qMMVfcc4jRHJfNExjUV9pd2c/view" class="uri">https://drive.google.com/file/d/0By5qMMVfcc4jRHJfNExjUV9pd2c/view</a> <a href="https://www.youtube.com/watch?v=54HoO0KgWLQ&amp;t=1178s&amp;index=2&amp;list=FLmPcw83WfcCSrQxTt4FSI_Q" class="uri">https://www.youtube.com/watch?v=54HoO0KgWLQ&amp;t=1178s&amp;index=2&amp;list=FLmPcw83WfcCSrQxTt4FSI_Q</a></p>
+
 
   <footer>
   
 <nav class="post-nav">
-  <span class="nav-prev"></span>
+  <span class="nav-prev">&larr; <a href="/post/2018/05/20/matlab-spatial-panels-reference-to-non-existent-field-parm/">Matlab spatial panels - Reference to non-existent field &#39;parm&#39;</a></span>
   <span class="nav-next"></span>
 </nav>
 
