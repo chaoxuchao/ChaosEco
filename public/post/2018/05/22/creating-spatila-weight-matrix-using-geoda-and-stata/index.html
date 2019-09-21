@@ -69,24 +69,36 @@
 
 
 
+
+
+
 <p>先使用Geoda生成gal文件，然后使用下面的stata commands来生成空间加权矩阵文件</p>
 <p>ssc install spwmatrix</p>
 <ul>
-<li>remove the first and last lines of the txt file spwmatrix import using C:*USER*_file.gal, wname(weights) xport(weights, txt)</li>
+<li>remove the first and last lines of the txt file
+spwmatrix import using C:*USER*_file.gal, wname(weights) xport(weights, txt)</li>
 </ul>
-<p>insheet using “C:*USER*.txt“, delim(” “) clear save”weights.dta&quot;</p>
-<p>gen id = _n order id, first</p>
-<p>rename v(#) m(#) rename v(##) m(##) rename v(###) m(###)</p>
-<p>gsort -id drop id</p>
-<p>gen id = _n order id, first</p>
-<p>Source： <a href="https://drive.google.com/file/d/0By5qMMVfcc4jRHJfNExjUV9pd2c/view" class="uri">https://drive.google.com/file/d/0By5qMMVfcc4jRHJfNExjUV9pd2c/view</a> <a href="https://www.youtube.com/watch?v=54HoO0KgWLQ&amp;t=1178s&amp;index=2&amp;list=FLmPcw83WfcCSrQxTt4FSI_Q" class="uri">https://www.youtube.com/watch?v=54HoO0KgWLQ&amp;t=1178s&amp;index=2&amp;list=FLmPcw83WfcCSrQxTt4FSI_Q</a></p>
+<p>insheet using "C:*USER*.txt“, delim(” “) clear
+save”weights.dta"</p>
+<p>gen id = _n
+order id, first</p>
+<p>rename v(#) m(#)
+rename v(##) m(##)
+rename v(###) m(###)</p>
+<p>gsort -id
+drop id</p>
+<p>gen id = _n
+order id, first</p>
+<p>Source：
+<a href="https://drive.google.com/file/d/0By5qMMVfcc4jRHJfNExjUV9pd2c/view" class="uri">https://drive.google.com/file/d/0By5qMMVfcc4jRHJfNExjUV9pd2c/view</a>
+<a href="https://www.youtube.com/watch?v=54HoO0KgWLQ&amp;t=1178s&amp;index=2&amp;list=FLmPcw83WfcCSrQxTt4FSI_Q" class="uri">https://www.youtube.com/watch?v=54HoO0KgWLQ&amp;t=1178s&amp;index=2&amp;list=FLmPcw83WfcCSrQxTt4FSI_Q</a></p>
 
 
   <footer>
   
 <nav class="post-nav">
   <span class="nav-prev">&larr; <a href="/post/2018/05/20/matlab-spatial-panels-reference-to-non-existent-field-parm/">Matlab spatial panels - Reference to non-existent field &#39;parm&#39;</a></span>
-  <span class="nav-next"></span>
+  <span class="nav-next"><a href="/post/2019/09/21/cut-a-polyline-with-anothe-polyline-or-point/">Cut a polyline with anothe polyline or point</a> &rarr;</span>
 </nav>
 
 

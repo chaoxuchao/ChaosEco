@@ -6,10 +6,19 @@
     <description>Recent content in Posts on ChaosEco</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 22 May 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 21 Sep 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Cut a polyline with anothe polyline or point</title>
+      <link>/post/2019/09/21/cut-a-polyline-with-anothe-polyline-or-point/</link>
+      <pubDate>Sat, 21 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2019/09/21/cut-a-polyline-with-anothe-polyline-or-point/</guid>
+      <description>Tools &amp;gt; Customize &amp;gt; Editor &amp;gt; Split Tool</description>
+    </item>
     
     <item>
       <title>Creating spatila weight matrix using Geoda and Stata</title>
@@ -19,12 +28,12 @@
       <guid>/post/2018/05/22/creating-spatila-weight-matrix-using-geoda-and-stata/</guid>
       <description>先使用Geoda生成gal文件，然后使用下面的stata commands来生成空间加权矩阵文件
 ssc install spwmatrix
-remove the first and last lines of the txt file spwmatrix import using C:*USER*_file.gal, wname(weights) xport(weights, txt)insheet using “C:*USER*.txt“, delim(” “) clear save”weights.dta&amp;quot;
-gen id = _n order id, first
-rename v(#) m(#) rename v(##) m(##) rename v(###) m(###)
-gsort -id drop id
-gen id = _n order id, first
-Source： https://drive.google.com/file/d/0By5qMMVfcc4jRHJfNExjUV9pd2c/view https://www.youtube.com/watch?v=54HoO0KgWLQ&amp;amp;t=1178s&amp;amp;index=2&amp;amp;list=FLmPcw83WfcCSrQxTt4FSI_Q</description>
+remove the first and last lines of the txt filespwmatrix import using C:*USER*_file.gal, wname(weights) xport(weights, txt)insheet using &#34;C:*USER*.txt“, delim(” “) clearsave”weights.dta&#34;
+gen id = _norder id, first
+rename v(#) m(#)rename v(##) m(##)rename v(###) m(###)
+gsort -iddrop id
+gen id = _norder id, first
+Source：https://drive.google.com/file/d/0By5qMMVfcc4jRHJfNExjUV9pd2c/viewhttps://www.youtube.com/watch?v=54HoO0KgWLQ&amp;amp;t=1178s&amp;amp;index=2&amp;amp;list=FLmPcw83WfcCSrQxTt4FSI_Q</description>
     </item>
     
     <item>
@@ -33,7 +42,7 @@ Source： https://drive.google.com/file/d/0By5qMMVfcc4jRHJfNExjUV9pd2c/view http
       <pubDate>Sun, 20 May 2018 00:00:00 +0000</pubDate>
       
       <guid>/post/2018/05/20/matlab-spatial-panels-reference-to-non-existent-field-parm/</guid>
-      <description>这个问题是由于matlab引用的文件中缺失对参数‘parm’的定义造成的。 新版的jplv7工具箱中sar_panel_FE.m没有定义result.parm，可以找到旧版的sar_panel_FE.m文件放入Elhorst文件夹，由于在路径设置中，Elhorst文件夹在jplv7文件夹之前，所以在读取顺序上旧版的sar_panel_FE.m文件会覆盖jplv7文件夹中的新版文件。
+      <description>这个问题是由于matlab引用的文件中缺失对参数‘parm’的定义造成的。新版的jplv7工具箱中sar_panel_FE.m没有定义result.parm，可以找到旧版的sar_panel_FE.m文件放入Elhorst文件夹，由于在路径设置中，Elhorst文件夹在jplv7文件夹之前，所以在读取顺序上旧版的sar_panel_FE.m文件会覆盖jplv7文件夹中的新版文件。
 Source：http://bbs.pinggu.org/thread-3661610-1-1.html</description>
     </item>
     
@@ -52,7 +61,7 @@ Source：http://bbs.pinggu.org/thread-3661610-1-1.html</description>
       <pubDate>Thu, 22 Feb 2018 00:00:00 +0000</pubDate>
       
       <guid>/post/2018/02/22/process/</guid>
-      <description>Go to: Tools -&amp;gt; Version Control -&amp;gt; Comment -&amp;gt; Select all and then Enter, input some comments -&amp;gt; Press Comment button -&amp;gt; Push Icon)</description>
+      <description>Go to:Tools -&amp;gt; Version Control -&amp;gt; Comment -&amp;gt; Select all and then Enter, input some comments -&amp;gt; Press Comment button -&amp;gt; Push Icon)</description>
     </item>
     
   </channel>
