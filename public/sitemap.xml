@@ -3,22 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/categories/arcgis/</loc>
-    <lastmod>2019-09-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/arcgis/</loc>
-    <lastmod>2019-09-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/categories/</loc>
-    <lastmod>2019-09-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/2019/09/21/cut-a-polyline-with-anothe-polyline-or-point/</loc>
     <lastmod>2019-09-21T00:00:00+00:00</lastmod>
   </url>
   
@@ -33,23 +18,18 @@
   </url>
   
   <url>
-    <loc>/tags/polyline/</loc>
-    <lastmod>2019-09-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/post/</loc>
-    <lastmod>2019-09-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
     <lastmod>2019-09-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/post/2019/09/21/what-is-wrong/</loc>
     <lastmod>2019-09-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/arcgis/</loc>
+    <lastmod>2018-05-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -73,7 +53,22 @@
   </url>
   
   <url>
+    <loc>/tags/</loc>
+    <lastmod>2018-05-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/arcgis/</loc>
+    <lastmod>2018-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/post/2018/02/24/cut-a-polyline-with-anothe-polyline-or-point/</loc>
+    <lastmod>2018-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/polyline/</loc>
     <lastmod>2018-02-24T00:00:00+00:00</lastmod>
   </url>
   

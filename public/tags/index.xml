@@ -6,15 +6,24 @@
     <description>Recent content in Tags on ChaosEco</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 21 Sep 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 20 May 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Spatial panels</title>
+      <link>/tags/spatial-panels/</link>
+      <pubDate>Sun, 20 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/spatial-panels/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>ArcGIS</title>
       <link>/tags/arcgis/</link>
-      <pubDate>Sat, 21 Sep 2019 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 24 Feb 2018 00:00:00 +0000</pubDate>
       
       <guid>/tags/arcgis/</guid>
       <description></description>
@@ -23,18 +32,9 @@
     <item>
       <title>polyline</title>
       <link>/tags/polyline/</link>
-      <pubDate>Sat, 21 Sep 2019 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 24 Feb 2018 00:00:00 +0000</pubDate>
       
       <guid>/tags/polyline/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Spatial panels</title>
-      <link>/tags/spatial-panels/</link>
-      <pubDate>Sun, 20 May 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/spatial-panels/</guid>
       <description></description>
     </item>
     
