@@ -3,12 +3,12 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/tags/arcgis/</loc>
+    <loc>/categories/arcgis/</loc>
     <lastmod>2019-09-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/arcgis/</loc>
+    <loc>/tags/arcgis/</loc>
     <lastmod>2019-09-21T00:00:00+00:00</lastmod>
   </url>
   
@@ -19,6 +19,11 @@
   
   <url>
     <loc>/post/2019/09/21/cut-a-polyline-with-anothe-polyline-or-point/</loc>
+    <lastmod>2019-09-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/example/</loc>
     <lastmod>2019-09-21T00:00:00+00:00</lastmod>
   </url>
   
@@ -39,6 +44,11 @@
   
   <url>
     <loc>/tags/</loc>
+    <lastmod>2019-09-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2019/09/21/what-is-wrong/</loc>
     <lastmod>2019-09-21T00:00:00+00:00</lastmod>
   </url>
   
@@ -65,11 +75,6 @@
   <url>
     <loc>/post/2018/02/24/cut-a-polyline-with-anothe-polyline-or-point/</loc>
     <lastmod>2018-02-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/categories/example/</loc>
-    <lastmod>2018-02-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>

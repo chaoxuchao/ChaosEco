@@ -6,10 +6,19 @@
     <description>Recent content in Example on ChaosEco</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 22 Feb 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 21 Sep 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/example/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>what is wrong</title>
+      <link>/post/2019/09/21/what-is-wrong/</link>
+      <pubDate>Sat, 21 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2019/09/21/what-is-wrong/</guid>
+      <description>what is wrong?</description>
+    </item>
     
     <item>
       <title>New post</title>
